@@ -46,7 +46,7 @@ route = 172.16.0.0/12
 # Allow specific server ports
 expose-ports = tcp:22,tcp:80,tcp:443,tcp:8070
 ```
-### Create a VPN user
+### Enable IP forwarding
 ```
 sudo bash -c 'echo "net.ipv4.ip_forward = 1" >> /etc/sysctl.conf'
 sudo sysctl -p
