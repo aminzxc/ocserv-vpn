@@ -187,7 +187,7 @@ net-priority = 2
 rx-per-sec = 512000  # 500KB/s download
 tx-per-sec = 256000  # 250KB/s upload
 
-# 
+
 ```
 ### Update your ocserv.conf to use groups
 ```
